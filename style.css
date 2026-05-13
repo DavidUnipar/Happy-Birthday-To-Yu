@@ -1,0 +1,85 @@
+.tituloPoema{
+    text-align: center;
+    color: #FADADD;
+}
+
+img {
+    width: 370px;
+    height: 470px;
+    float: left;
+    border: dashed 5px #800020;
+}
+
+.imagem1{
+    width: 350px;
+    height: 280px;
+    float: right;
+    border: dashed 5px #800020;
+}
+
+body{
+    background-color: #2D1B22;
+    overflow-x: hidden;
+}
+
+#ladoesquerdo{
+    width: 49vw;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 27px;
+}
+
+#ladodireito{
+    width: 49vw;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: end;
+    row-gap: 27px;
+    
+
+}
+
+#galeria{
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#textoCentro{
+    width: 570px;
+}
+
+.poema{
+    background-color: #5e1224;
+    color: #FADADD;
+    text-align: center;
+    
+}
+
+.textoLegal{
+    background-color: #5e1224;
+    color: #FADADD;
+    text-align: center;
+}
+
+.musica{
+    color: #2D1B22;
+}
+
+#musica1{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 20px;
+}
+
+
